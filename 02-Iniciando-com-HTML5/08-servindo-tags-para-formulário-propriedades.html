@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>02.08 Servindo tags para formulário [propriedades]</title>
+    </head>
+    <body>
+        <main>
+            <form action="#">
+                <!-- Agrupando elementos do formulário -->
+                <fieldset>
+                    <legend>Formulário</legend>
+
+                    <!--
+
+                        propriedades = [
+                            required, required = "", required = "required" -> Campo obrigatório 
+                            redonly, redonly = "", redonly = "redonly" -> Campo somente para leitura. Se tiver um valor setado, esse valor será sempre enviado e não poderá ser mudado
+                            placeholder = "" -> Legenda do input
+                            disabled, disabled = "", disabled = "disabled" -> Campo desabilitado, ou seja, como se não existisse
+                            pattern -> Forma de utilziar uma EXP(expressão regular)
+                            checked -> Forma de deixar um valor selecionado quando 'checkbox' for utilzado 
+                        ]
+
+                    -->
+
+                    <p>Insira o seu nome: <input type="text" required placeholder="Insira seu nome completo"></p>
+                    <!-- \d{3}\.\d{3}\.\d{3}-\d{2} = Máscara para informar CPF (\d{3} = total de digitos separados pelo ponto e ífen) -->
+                    <p>Insira o seu CPF: <input type="text" required placeholder="001.002.003-00" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"></p>
+                    <p>Insira seu e-mail: <input type="email" disabled placeholder="Insira um e-mail válido"></p>
+                    <p>Insira sua senha:  <input type="password"></p>
+                    <p>
+                        Insira o sexo <br>
+                        <!-- Incluir o mesmo 'name' para poder escolher uma das opções, diferente do 'checkbox' que pode se escolher diversas opções -->
+                        <input type="radio" name="sexo"> Masculino <br>
+                        <input type="radio" name="sexo"> Feminino
+                    </p>
+
+                    <p>
+                        Escolha suas tecnologias preferidas <br>
+                        <input type="checkbox" checked>HTML5 <br>
+                        <input type="checkbox">CSS3 <br>
+                        <input type="checkbox">JQuery <br>
+                        <input type="checkbox">PHP <br>
+                        <input type="checkbox">JAVA
+                    </p>
+
+                    <p>
+                        Selecione um arquivo <input type="file">
+                    </p>
+
+                    <p>
+                        Informe uma URL <input type="url">
+                    </p>
+
+                    <p>
+                        Selecione um curso <br>
+                        <select>
+                            <optgroup label="Cursos de Desenvolvimento">
+                                <option>HTML5 e CSS3</option>
+                                <option>GIT WORKFLOW</option>
+                            </optgroup>
+                            <optgroup label="Cursos de Programação">
+                                <option>JQuery Essentials</option>
+                            </optgroup>    
+                        </select>
+                    </p>
+
+                    <p>
+                        Range: <input type="range">
+                    </p>
+
+                    <p>
+                        Color Pick: <input type="color">
+                    </p>
+
+                    <p>
+                        Date: <input type="date">
+                    </p>
+
+                    <p>
+                        Time: <input type="time">
+                    </p>
+
+                    <p>
+                        Date Time: <input type="datetime-local"> 
+                    </p>
+
+                    <p>
+                        Month: <input type="month">
+                    </p>
+
+                    <p>
+                        Week: <input type="week">
+                    </p>
+
+                    <p>
+                        <button type="submit">Validar</button>
+                        <button type="reset">Limpar Campos</button>
+                    </p>
+                </fieldset>
+            </form>
+        </main>
+    </body>
+</html>
