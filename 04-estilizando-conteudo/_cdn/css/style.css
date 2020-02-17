@@ -57,29 +57,24 @@
 .main_cta .main_cta_content {
     max-width: 1300px;
     margin: 0 auto;
+    padding: 15% 40px;
 }
 
-.main_cta .main_cta_content .main_cta_content_spacer {
-    margin: 0 auto;
-    max-width: 1300px;
-    padding: 22% 40px;
-}
-
-.main_cta .main_cta_content .main_cta_content_spacer h1 {
+.main_cta .main_cta_content h1 {
     font-size: 3em;
     color: #fff;
     font-weight: 700;
     text-align: center;
 }
 
-.main_cta .main_cta_content .main_cta_content_spacer p {
+.main_cta .main_cta_content p {
     font-size: 1.875em;
     color: #fff;
     text-align: center;
     margin: 20px 0;
 }
 
-.main_cta .main_cta_content .main_cta_content_spacer .btn {
+.main_cta .main_cta_content .btn {
     background-color: #d36833;
     color: #fff;
     border-radius: 5px;
