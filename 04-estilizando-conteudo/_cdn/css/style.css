@@ -84,7 +84,7 @@
     padding: 10px 40px;
 }
 
-/* ESTILIZAÇÃO SESSÃO ARTIGOS */
+/* SESSÃO ARTIGOS */
 .main_blog {
     max-width: calc(1300px - 40px);
     padding: 0 20px;
@@ -109,7 +109,6 @@
     flex-basis: calc(25% - 20px);
     margin-bottom: 30px;
     opacity: 0.6;
-
     transition: opacity .5s linear;
 }
 
@@ -138,4 +137,66 @@
 
 .main_blog article h2 a {
     color: #333;
+}
+
+/* SESSÃO OPTIN */
+.main_optin {
+    width: 100%;
+    background-color: #2d3142;
+    margin: 20px 0;
+    border: 1px solid #fff;
+}
+
+.main_optin_content {
+    max-width: calc(1300px - 40px);
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: flex;
+
+    border: 1px solid #fff;
+}
+
+.main_optin_content header, .main_optin_content form {
+    flex-basis: 50%;
+
+    border: 1px solid #fff;
+}
+
+.main_optin_content header h1, .main_optin_content header p {
+    color: #fff;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.main_optin_content header h1 {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.main_optin_content header p {
+    font-size: 0.875em;
+    font-weight: 300;
+}
+
+.main_optin_content form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_optin_content form input[type="text"], .main_optin_content form input[type="email"] {
+    border: none;
+    flex-basis: 37%;
+    padding: 0 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+} 
+
+.main_optin_content form button {
+    flex-basis: 20%;
+    background-color: #d36833;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    font-size: .875em;
 }
