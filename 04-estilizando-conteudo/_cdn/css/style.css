@@ -143,8 +143,7 @@
 .main_optin {
     width: 100%;
     background-color: #2d3142;
-    margin: 20px 0;
-    border: 1px solid #fff;
+    margin: 40px 0;
 }
 
 .main_optin_content {
@@ -152,14 +151,10 @@
     margin: 0 auto;
     padding: 40px 20px;
     display: flex;
-
-    border: 1px solid #fff;
 }
 
 .main_optin_content header, .main_optin_content form {
     flex-basis: 50%;
-
-    border: 1px solid #fff;
 }
 
 .main_optin_content header h1, .main_optin_content header p {
@@ -199,4 +194,54 @@
     border-radius: 10px;
     border: none;
     font-size: .875em;
+}
+
+/* ESTILIZAÇÃO DA DOBRA [CURSO] */
+.main_course {
+    width: 100%;
+}
+
+.main_course .main_course_header {
+    max-width: 780px;
+    margin: 0 auto;
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.main_course .main_course_header img {
+    margin-bottom: 20px;
+}
+
+.main_course .main_course_header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.main_course_content {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.main_course_content article {
+    flex-basis: calc(50% - 40px);
+    margin: 20px 0;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.main_course_content article h2 {
+    font-size: 1.3em;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.main_course_content article p {
+    font-size: 0.9em;
+    color: #333;
 }
