@@ -192,6 +192,8 @@
     background-color: #d36833;
     color: #fff;
     border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
     border: none;
     font-size: .875em;
 }
@@ -218,7 +220,7 @@
     margin-bottom: 10px;
 }
 
-.main_course_content {
+.main_course_about_content {
     max-width: 1300px;
     margin: 0 auto;
     display: flex;
@@ -227,21 +229,80 @@
     margin-bottom: 40px;
 }
 
-.main_course_content article {
+.main_course_about_content article {
     flex-basis: calc(50% - 40px);
     margin: 20px 0;
     background-color: #e0e0e0;
     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
     padding: 20px;
 }
 
-.main_course_content article h2 {
+.main_course_about_content article h2 {
     font-size: 1.3em;
     color: #333;
     margin-bottom: 4px;
 }
 
-.main_course_content article p {
+.main_course_about_content article p {
     font-size: 0.9em;
     color: #333;
+}
+
+/* ESTILIZAÇÃO DA DOBRA [REVIEWS] */
+.main_course_rating {
+    width: 100%;
+    background-color: #d36833;
+    padding: 40px 0;
+}
+
+.main_course_rating .main_course_rating_content {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.main_course_rating .main_course_rating_content .main_course_rating_content_title {
+    text-align: center;
+    color: #fff;
+}
+
+.main_course_rating .main_course_rating_content .main_course_rating_content_title h2 {
+    font-size: 2.4em;
+    margin-bottom: 20px;
+}
+
+.main_course_rating .main_course_rating_content .main_course_rating_content_comment {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_course_rating .main_course_rating_content .main_course_rating_content_comment > header {
+    flex-basis: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 1.8em;
+    margin: 20px 0;
+}
+
+.main_course_rating .main_course_rating_content .main_course_rating_content_comment article {
+    flex-basis: calc(50% - 20px);
+    margin: 20px 0;
+    padding: 20px;
+    color: #333;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #fff;
+}
+
+.main_course_rating .main_course_rating_content .main_course_rating_content_comment article h3 {
+    font-size: 1.3em;
+    margin-bottom: 4px;
+}
+
+.main_course_rating .main_course_rating_content .main_course_rating_content_comment article img {
+    width: 15px;
+    margin: 4px 0;
 }
