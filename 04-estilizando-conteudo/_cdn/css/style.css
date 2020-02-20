@@ -310,8 +310,6 @@
 /* ESTILIZAÇÃO DA DOBRA [A ESCOLA] pt1 (Utilizando forma que não mostra do pai ao filho à ser estilizado) */
 .main_school {
     width: 100%;
-
-    border: 3px solid red;
 }
 
 .main_school_content {
@@ -320,16 +318,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
-    border: 3px solid yellowgreen;
 }
 
 .main_school_content_header {
     flex-basis: 100%;
     padding: 40px 0;
     color: #333;
-
-    border: 2px solid black;
 }
 
 .main_school_content_header h1 {
@@ -339,8 +333,6 @@
 
 .main_school_content_left {
     flex-basis: calc(70% - 20px);
-
-    border: 2px solid blue;
 }
 
 .main_school_content_left_social_network {
@@ -349,8 +341,6 @@
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-
-    border: 2px solid violet;
 }
 
 .main_school_content_left_social_network span {
