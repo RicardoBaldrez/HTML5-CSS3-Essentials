@@ -421,3 +421,86 @@
     color: #333;
     font-weight: 500;
 }
+
+/* ESTILIZAÇÃO DA DOBRA [TUTOR] */
+.main_tutor {
+    width: 100%;
+    background-color: #2d3142;
+}
+
+.main_tutor_content {
+    max-width: calc(1300px - 80px);
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+    color: #fff;
+}
+
+.main_tutor_content > header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.main_tutor_content_img {
+    margin: 20px auto;
+}
+
+.main_tutor_content_img img {
+    max-width: 200px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    padding: 3px;
+    background-color: #fff;
+}
+
+.main_tutor_content_formation h2 {
+    font-size: 1.2em;
+}
+
+.main_tutor_content_formation p {
+    margin: 20px 0;
+    font-size: 0.925em;
+}
+
+.main_tutor_social_networks {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d36833;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main_tutor_social_networks > header {
+    flex-basis: 100%;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.main_tutor_social_networks > article {
+    flex-basis: 24%;
+}
+
+.main_tutor_social_networks > article h3 {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.main_tutor_social_networks > article h3 a {
+    background-color: #fff;
+    color: #d36833;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 10px;
+}
+
+.main_tutor_social_networks > article h3 a:hover {
+    background-color: #2d3142;
+    color: #fff;
+}
