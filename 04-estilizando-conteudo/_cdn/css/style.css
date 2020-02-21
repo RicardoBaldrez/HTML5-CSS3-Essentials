@@ -335,26 +335,65 @@
     flex-basis: calc(70% - 20px);
 }
 
-.main_school_content_left_social_network {
+.main_school_content_left_content > header > p {
     background-color: #2d3142;
     padding: 10px;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
+    margin-bottom: 20px;
 }
 
-.main_school_content_left_social_network span {
+.main_school_content_left_content > header > p span {
     margin-left: 20px;
 }
 
-.main_school_content_left_social_network a {
+.main_school_content_left_content > header > p a {
     color: #fff;
     font-size: 0.9em;
 }
 
-.main_school_content_left_social_network a:hover {
+.main_school_content_left_content > header > p a:hover {
     text-decoration: underline;
 } 
+
+.main_school_content_left_content > header > h2 {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.main_school_content_left_content > p {
+    margin-bottom: 20px;
+}
+
+.main_school_awards {
+    width: 100%;
+    background-color: #e0e0e0;
+    padding: 20px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_school_awards > header {
+    flex-basis: 100%;
+    color: #d36833;
+    margin-bottom: 20px;
+}
+
+.main_school_awards > article {
+    flex-basis: calc(50% - 10px);
+    color: #333;
+    margin: 5px 0;
+}
+
+.main_school_awards > article > header > h3 {
+    font-weight: 300;
+}  
 
 .main_school_content_right {
     flex-basis: 30%;
@@ -365,4 +404,22 @@
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
+}
+
+.main_school_address {
+    flex-basis: 100%;
+    text-align: center;
+    margin: 45px 0;
+
+    border: 2px solid red;
+}
+
+.main_school_address > header > h2 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.main_school_address > p {
+    font-size: 0.8em;
+    font-weight: 500;
 }
