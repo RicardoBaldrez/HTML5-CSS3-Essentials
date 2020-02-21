@@ -359,14 +359,14 @@
 
 .main_school_content_left_content > header > h2 {
     font-size: 1.3em;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .main_school_content_left_content > p {
     margin-bottom: 20px;
 }
 
-.main_school_awards {
+.main_school_content_awards {
     width: 100%;
     background-color: #e0e0e0;
     padding: 20px;
@@ -379,19 +379,19 @@
     justify-content: space-between;
 }
 
-.main_school_awards > header {
+.main_school_content_awards > header {
     flex-basis: 100%;
     color: #d36833;
     margin-bottom: 20px;
 }
 
-.main_school_awards > article {
+.main_school_content_awards > article {
     flex-basis: calc(50% - 10px);
     color: #333;
     margin: 5px 0;
 }
 
-.main_school_awards > article > header > h3 {
+.main_school_content_awards > article > header > h3 {
     font-weight: 300;
 }  
 
@@ -406,20 +406,18 @@
     -webkit-border-radius: 50%;
 }
 
-.main_school_address {
+.main_school_content_address {
     flex-basis: 100%;
     text-align: center;
     margin: 45px 0;
-
-    border: 2px solid red;
 }
 
-.main_school_address > header > h2 {
-    font-size: 1.2em;
+.main_school_content_address > header > h2 {
+    font-size: 1.4em;
     margin-bottom: 5px;
 }
 
-.main_school_address > p {
-    font-size: 0.8em;
+.main_school_content_address > p {
+    color: #333;
     font-weight: 500;
 }
