@@ -592,7 +592,7 @@ footer {
 
 /* MENU MOBILE */
 .main_header_content_menu_mobile {
-    display: flex;
+    display: none;
     flex-basis: calc(100% - 330px);
     justify-content: flex-end;
 }
@@ -652,4 +652,60 @@ footer {
 .main_header_content_menu_mobile_sub > li a:hover {
     background-color: #d36833;
     color: #fff;
+}
+
+/* MEDIA QUERIES */
+
+/* 1024px */
+@media(max-width: 64em) {
+    .main_cta .main_cta_content h1  {
+        font-size: 2.5em;
+    }
+
+    .main_cta .main_cta_content {
+        padding: 100px 30px;
+    }
+}
+
+/* 768px */
+@media(max-width: 48em) {
+    .main_header_content_menu {
+        display: none !important;
+    }
+
+    .main_header_content_menu_mobile {
+        display: flex;
+    }
+    
+    .main_cta .main_cta_content {
+        padding: 60px 30px;
+    }
+
+    .main_cta .main_cta_content h1 {
+        font-size: 1.9em;
+    }
+
+    .main_cta .main_cta_content p {
+        font-size: 1.5em;
+    }
+
+    .main_cta .main_cta_content .btn {
+        font-size: 0.7em;
+    }
+    
+}
+
+/* 480px */
+@media(max-width: 30em) {
+    .main_header_content_logo {
+        flex-basis: 250px !important;
+    }
+    
+    .main_header_content_logo img {
+        width: 100%;
+    }
+
+    .main_header_content_menu_mobile {
+        flex-basis: calc(100% - 250);
+    }
 }
