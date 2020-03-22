@@ -692,7 +692,22 @@ footer {
     .main_cta .main_cta_content .btn {
         font-size: 0.7em;
     }
+
+    .main_blog article {
+        flex-basis: calc(33% - 10px);
+    }
+
+    .main_blog article h2 {
+        font-size: 1em;
+    }
     
+}
+
+/* 640px */
+@media(max-width: 40em) {
+    .main_blog article {
+        flex-basis: calc(50% - 10px);
+    }
 }
 
 /* 480px */
@@ -707,5 +722,13 @@ footer {
 
     .main_header_content_menu_mobile {
         flex-basis: calc(100% - 250);
+    }
+
+    .main_blog article {
+        flex-basis: calc(100% - 10px);
+    }
+
+    .main_blog article h2 {
+        font-size: 1.2em;
     }
 }
