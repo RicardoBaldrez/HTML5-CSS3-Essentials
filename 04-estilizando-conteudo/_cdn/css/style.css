@@ -260,6 +260,7 @@
 
 .main_course_rating .main_course_rating_content {
     max-width: 1300px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 
@@ -725,7 +726,14 @@ footer {
     .main_blog article h2 {
         font-size: 1em;
     }
-    
+
+    .main_course_rating_content_title h2 {
+        font-size: 2em !important;
+    }
+
+    .main_course_rating_content_comment > article {
+        flex-basis: 100% !important;
+    }
 }
 
 /* 640px */
@@ -755,6 +763,14 @@ footer {
     .main_course_about_content article {
         flex-basis: 100%;
         margin: 10px 20px;
+    }
+
+    .main_course_rating_content_title h2 {
+        font-size: 1.7em !important;
+    }
+
+    .main_course_rating_content_comment h2 {
+        font-size: 0.8em !important;
     }
 }
 
