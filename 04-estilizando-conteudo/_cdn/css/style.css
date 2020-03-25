@@ -757,6 +757,19 @@ footer {
         font-size: 0.9em;
         line-height: 2em;
     }
+
+    .main_tutor_social_networks h2 {
+        margin-bottom: 20px;
+    }
+
+    .main_tutor_social_networks {
+        max-width: 80%;
+    }
+
+    .main_tutor_social_networks > article {
+        flex-basis: 48%;
+        margin-bottom: 20px;
+    }
 }
 
 /* 640px */
@@ -794,6 +807,18 @@ footer {
 
     .main_course_rating_content_comment h2 {
         font-size: 0.8em !important;
+    }
+}
+
+/* 580px */
+@media(max-width: 36em) {
+    .main_tutor_social_networks > article {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .main_tutor_social_networks > article a {
+        display: block;
     }
 }
 
