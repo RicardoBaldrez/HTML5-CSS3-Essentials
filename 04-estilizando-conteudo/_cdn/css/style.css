@@ -517,7 +517,7 @@
 .main_content_optin_footer {
     max-width: 1300px;
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 40px 20px;
     text-align: center;
     color: #333;
 }
@@ -538,7 +538,7 @@
 .main_footer {
     max-width: 1300px;
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 40px 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -769,6 +769,17 @@ footer {
     .main_tutor_social_networks > article {
         flex-basis: 48%;
         margin-bottom: 20px;
+    }
+
+    .main_footer > article {
+        flex-basis: calc(50% - 10px);
+
+        border: 2px solid black;
+    }
+
+    .main_footer > article:last-child {
+        flex-basis: 100%;
+        margin-top: 20px;
     }
 }
 
